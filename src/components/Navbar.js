@@ -23,7 +23,7 @@ function Navbar({ curr_Id, setcurr_Id }) {
         try{
             dispatch(login(result,token));
             setisLogin(true);
-            window.location.reload();
+            
         }
         catch(error){
             console.log(error.message);
